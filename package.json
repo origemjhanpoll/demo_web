@@ -2,10 +2,13 @@
   "name": "demo",
   "private": true,
   "version": "0.0.0",
+  "homepage":"https://origemjhanpoll.github.io/demo_web/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"vite build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
